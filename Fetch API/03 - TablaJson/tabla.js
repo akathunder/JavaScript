@@ -4,7 +4,7 @@ var contenido = document.querySelector('#contenido')
             fetch('tabla.json')
                 .then(res => res.json())
                 .then(datos => {
-                     console.log(datos)
+                    // console.log(datos)
                     tabla(datos)
                 })
         }
@@ -13,7 +13,7 @@ var contenido = document.querySelector('#contenido')
             // console.log(datos)
             contenido.innerHTML = ''
             for(let valor of datos){
-                // console.log(valor.nombre)
+                 console.log(valor.nombre)
                 contenido.innerHTML += `
                 
                 <tr>
