@@ -9,5 +9,5 @@ var contenido = document.querySelector('#contenido')
                 <p>Nombre: ${data.results['0'].name.first +" "+ data.results['0'].name.last}</p>
                 <p>telefono: ${data.results['0'].cell}</p>
                 `
-            })
+            }) 
         } 
